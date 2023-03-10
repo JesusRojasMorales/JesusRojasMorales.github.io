@@ -1,30 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>J. Rojas Morales</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <style>
-      body {
-        height: 100vh;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-      .pdf-container {
-        height: 100%;
-        width: 100%;
-        overflow: hidden;
-      }
-      embed {
-        height: 100%;
-        width: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="pdf-container">
-      <embed src="CV.pdf#zoom=120" type="application/pdf"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jesús Rojas Morales</title>
+</head>
+<body>
+  <div class="header">
+    <div class="filter">
+          <div class="profile-image-container">
+      <img src="cv_image.png" alt="Jesús Rojas Morales">
     </div>
-  </body>
+    <h1>Jesús Rojas Morales</h1>
+    <h2>Computer engineer</h2>
+    <div class="button-row">
+          <div class="blue-button">
+            <a href="CV.pdf" target="_blank" download>Download CV</a>
+          </div>
+          <div class="blue-button">
+            <a href="https://www.linkedin.com/in/jrojasmorales " target="_blank">Linkedin</a>
+          </div>
+    </div>
+    </div>
+
+
+  </div>
+  <section id="about">
+    <div class="title-container"><h2>About me</h2></div>
+    <p>
+      I am dedicated and passionate about personal growth and IT. Committed to delivering results and constantly expanding my knowledge. Efficient in teamwork and collaboration, always striving to make a meaningful impact and achieve success.</p>
+    <p>
+      Although I have experience in web development, my true passion lies in the fields of data science and AI. I have been self-teaching and working on projects related to these areas to expand my knowledge and skills.
+    </p>
+  </section>
+  <section id="proyectos">
+    <div class="title-container"><h2>Portfolio</h2></div>
+    <div class="proyecto">
+      <h3>Portfolio webpage developed with HTML5 and CSS3</h3>
+      <p>This is the first project published in my personal portfolio. The HTML and CSS source code can be found in the repository. It is a webpage that allows for the download of my resume and showcases the personal projects I have worked on. It serves to demonstrate my abilities in various IT contexts.</p>
+      <a class="blue-button" href="https://github.com/JesusRojasMorales/JesusRojasMorales.github.io" target="_blank">Ver repositorio</a>
+    </div>
+    <!-- más proyectos aquí -->
+  </section>
+<footer>
+    <h2>Contact</h2>
+      <p>jrojasmorales97@gmail.com</p>
+      <p>+34 672 36 08 85</p>
+</footer>
+</body>
 </html>
+
